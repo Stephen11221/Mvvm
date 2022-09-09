@@ -14,6 +14,9 @@ class CityDataPrivider {
         cities.add(City("Singapore", R.drawable.singapore, 5_700_000))
         cities.add(City("Sydney", R.drawable.sydney, 5_300_000))
         cities.add(City("Tokyo", R.drawable.tokyo, 13_999_000))
+        cities.add(City("Karen",R.drawable.hqdefault,6543654 ))
+
+
     }
 
     fun getCities() = cities
